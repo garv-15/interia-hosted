@@ -1,0 +1,132 @@
+<section class="page">
+<h1>3D Designer</h1>
+
+<aside>
+<!--     <div class="dprefs">
+    <h3>Design Menu</h3>
+
+    <div>
+      <label>
+        <input type="checkbox" id="placeToggle" checked />
+        Enable Placement
+      </label>
+    </div>
+
+    <div>
+      <label for="roomSelect">Room</label>
+      <select id="roomSelect"></select>
+    </div>
+
+    <div>
+      <label for="itemSelect">Item</label>
+      <select id="itemSelect"></select>
+    </div>
+
+    <div>
+      <label for="colorPicker">Item Color</label>
+      <input type="color" id="colorPicker" value="#c8b6a6" />
+    </div>
+
+    <div>
+      <label>Room Dimensions (meters)</label>
+      <input type="number" id="roomWidth" placeholder="Width (m)" min="1" step="0.5" value="5" />
+      <input type="number" id="roomDepth" placeholder="Depth (m)" min="1" step="0.5" value="5" />
+      <input type="number" id="roomHeight" placeholder="Height (m)" min="2" step="0.5" value="3" />
+      <button id="applyDimensions">Apply Dimensions</button>
+    </div>
+
+    <div>
+      <label for="budgetSelect">Budget Range</label>
+      <select id="budgetSelect">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+    </div>
+
+  </div> -->
+
+  <div class="designview">
+
+        <h3>Room Settings</h3>
+
+        <div class="group">
+            <label>Room Width</label>
+            <input type="number" id="roomWidth" value="6">
+        </div>
+
+        <div class="group">
+            <label>Room Depth</label>
+            <input type="number" id="roomDepth" value="6">
+        </div>
+
+        <div class="group">
+            <label>Room Height</label>
+            <input type="number" id="roomHeight" value="3">
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="group">
+            <label>Ceiling Color</label>
+            <input type="color" id="ceilingColor" value="#ffffff">
+        </div>
+
+        <div class="group">
+            <label>Floor Color</label>
+            <input type="color" id="floorColor" value="#dddddd">
+        </div>
+
+        <div class="group">
+            <label>Wall Color</label>
+            <input type="color" id="wallColor" value="#e5e5e5">
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="group">
+            <label>Walls</label>
+
+            <label><input type="checkbox" id="wallT" checked> Ceiling</label>
+            <label><input type="checkbox" id="wallW1" checked> Wall Behind</label>
+            <label><input type="checkbox" id="wallW2" checked>Left Wall </label>
+            <label><input type="checkbox" id="wallW3"> Right Wall</label>
+            <label><input type="checkbox" id="wallW4"> Outside Wall</label>
+            <label><input type="checkbox" id="wallB" checked> Floor</label>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="group">
+            <label>Object Picker</label>
+            <select id="objectPicker">
+                <option value="">Select Object</option>
+                <option value="lamp">Lamp</option>
+                <option value="tv_unit">Tv Unit</option>
+                <option value="chandelier">Chandelier</option>
+                <option value="sofa_set">Sofa Set</option>
+                <option value="plant">Plant</option>
+                <option value="dining">Dining</option>
+                <option value="bed">Bed</option>
+                <option value="bedroom">Entire Bedroom</option>
+                <option value="kitchen">Kitchen Set</option>
+
+            </select>
+        </div>
+        <div class="group">
+          <button id="lightToggle">Lights: ON</button>
+        </div>
+        <div class="group">
+            <button id="placeToggle">PLACE: OFF</button>
+        </div>
+
+        <div class="group">
+            <button id="removeMode">REMOVE: OFF</button>
+        </div>
+
+    </div>
+    
+</aside>
+
+
+</section>

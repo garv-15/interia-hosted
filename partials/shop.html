@@ -1,0 +1,86 @@
+<section class="page">
+  <h1>Shop</h1>
+
+  <div class="shop-layout">
+
+  <!-- Sidebar -->
+  <aside class="prefs">
+    <h3>Room Preferences</h3>
+
+    <label>Room Color</label>
+    <input type="color" id="roomColor" />
+
+    <label>Dimensions (ft)</label>
+    <input placeholder="Length" id="len" />
+    <input placeholder="Width" id="wid" />
+    <input placeholder="Height" id="hei" />
+
+    <label>Budget</label>
+    <select id="budget">
+      <option value="budget">Budget</option>
+      <option value="mid">Mid-range</option>
+      <option value="premium">Premium</option>
+    </select>
+
+    <p id="recommendation" class="hint"></p>
+  </aside>
+
+  <!-- Main content -->
+
+    <section class="rooms">
+
+  <!-- ROOM GRID -->
+  <div class="room-grid">
+
+    <div class="room-tile" data-room="kitchen">
+      <h2>Kitchen</h2>
+      <img src="./assets/kitchen.jpeg"  />
+    </div>
+
+    <div class="room-tile" data-room="living">
+      <h2>Living Room</h2>
+      <img src="./assets/living.jpeg" />
+    </div>
+
+    <div class="room-tile" data-room="bedroom">
+      <h2>Bedroom</h2>
+      <img src="./assets/bedroom.jpeg"  />
+    </div>
+
+    <div class="room-tile" data-room="dining">
+      <h2>Dining</h2>
+      <img src="./assets/dining.jpeg" />
+    </div>
+
+  </div>
+
+  <!-- ROOM CONTENT (revealed on click) -->
+  <div class="room-content placeholder">
+  <p>Select a room to explore interior options</p>
+</div>
+
+</section>
+
+
+    <!-- REVIEWS -->
+    <section class="reviews">
+
+    </section>
+
+    <!-- RECENT WORK -->
+    <section class="recent-work">
+      <h2 style="margin-bottom: 10px;">Recent Work</h2>
+      <div class="gallery">
+        <img src="./assets/hero.jpeg" />
+        <img src="./assets/place1.jpeg" />
+        <img src="./assets/place2.jpeg" />
+      </div>
+      <p class="price-tag">Full house interior</p>
+    </section>
+
+  </section>
+</div>
+
+
+
+
